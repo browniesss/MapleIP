@@ -1,0 +1,289 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어(대한민국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU
+BEGIN
+    POPUP "메뉴"
+    BEGIN
+        MENUITEM "회원가입",                        ID_REGISTER
+        MENUITEM "로그인",                         ID_LOGIN
+        MENUITEM "로그아웃",                        ID_LOGOUT
+        MENUITEM "종료",                          ID_EXIT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_LOGIN DIALOGEX 0, 0, 309, 176
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "로그인"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "확인",IDOK,198,155,50,14
+    PUSHBUTTON      "취소",IDCANCEL,252,155,50,14
+    EDITTEXT        IDC_EDIT_LOGIN_ID,106,39,124,24,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_LOGIN_PW,106,89,124,24,ES_AUTOHSCROLL
+    LTEXT           "ID :",IDC_STATIC_LOGIN_ID,45,43,35,22
+    LTEXT           "PW :",IDC_STATIC_LOGIN_PW,50,89,35,22
+END
+
+IDD_REGISTER DIALOGEX 0, 0, 309, 176
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "회원가입"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "확인",IDOK,198,155,50,14
+    PUSHBUTTON      "취소",IDCANCEL,252,155,50,14
+    EDITTEXT        IDC_EDIT_REGISTER_NAME,104,26,116,25,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_REGISTER_ID,103,58,116,25,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_REGISTER_PW,103,91,116,25,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_REGISTER_EMAIL,105,122,116,25,ES_AUTOHSCROLL
+    LTEXT           "NAME :",IDC_STATIC_REGISTER_NAME,39,31,37,16
+    LTEXT           "ID :",IDC_STATIC_REGISTER_ID,41,63,37,16
+    LTEXT           "PW :",IDC_STATIC_REGISTER_PW,41,97,37,16
+    LTEXT           "EMAIL :",IDC_STATIC_REGISTER_EMAIL,41,127,37,16
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_LOGIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+
+    IDD_REGISTER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_LOGIN AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_REGISTER AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_PLAYER_WALKING      BITMAP                  "Player_walk.bmp"
+
+IDB_PLAYER_STAND        BITMAP                  "Player_stand.bmp"
+
+IDB_BACKGROUND          BITMAP                  "backGround.bmp"
+
+IDB_PLAYER_SKILL_1      BITMAP                  "Player_Skill_1.bmp"
+
+IDB_QUICKSLOT           BITMAP                  "Player_QuickSlot.bmp"
+
+IDB_PLAYER_SKILL_2      BITMAP                  "Player_Skill_2.bmp"
+
+IDB_ENEMY_1             BITMAP                  "Enemy_1.bmp"
+
+IDB_ENEMY_2             BITMAP                  "Enemy_2.bmp"
+
+IDB_ENEMY_3             BITMAP                  "Enemy_3.bmp"
+
+IDB_BOSS_1_MOVE         BITMAP                  "Boss_1.bmp"
+
+IDB_BOSS_1_HIT          BITMAP                  "Boss_1_Hit.bmp"
+
+IDB_BOSS_1_SKILL        BITMAP                  "Boss_1_Skill.bmp"
+
+IDB_BOSS_1_DIE          BITMAP                  "Boss_1_Die.bmp"
+
+IDB_BOSS_HP             BITMAP                  "Boss_HP_RED.bmp"
+
+IDB_BOSS_1_SKILL_EFFECT BITMAP                  "Boss_1_Skill_Effect.bmp"
+
+IDB_PLAYER_SKILL_1_2    BITMAP                  "Player_Skill_1-2.bmp"
+
+IDB_PLAYER_SKILL_3      BITMAP                  "Player_Skill_3.bmp"
+
+IDB_PLAYER_SKILL_3_ICON BITMAP                  "Player_Skill_3-ICON.bmp"
+
+IDB_PLAYER_LEVELUP      BITMAP                  "Player_LevelUp.bmp"
+
+IDB_ENEMY_4             BITMAP                  "Enemy_4.bmp"
+
+IDB_ENEMY_5             BITMAP                  "Enemy_5.bmp"
+
+IDB_ENEMY_6             BITMAP                  "Enemy_6.bmp"
+
+IDB_BOSS_2_MOVE         BITMAP                  "Boss_2.bmp"
+
+IDB_BOSS_2_HIT          BITMAP                  "Boss_2_Hit.bmp"
+
+IDB_BOSS_2_DIE          BITMAP                  "Boss_2_DIE.bmp"
+
+IDB_BOSS_2_SKILL        BITMAP                  "Boss_2_Skill.bmp"
+
+IDB_BOSS_2_SKILL_EFFECT BITMAP                  "Boss_2_Skill_Effect.bmp"
+
+IDB_PLAYER_SKILL_4      BITMAP                  "C:\\Users\\user\\source\\repos\\JumpingAction\\JumpingAction\\Player_Skill_4.bmp"
+
+IDB_PLAYER_SKILL_4_ICON BITMAP                  "Player_Skill_4_ICON.bmp"
+
+IDB_ENEMY_7             BITMAP                  "Enemy_7.bmp"
+
+IDB_ENEMY_8             BITMAP                  "Enemy_8.bmp"
+
+IDB_ENEMY_9             BITMAP                  "Enemy_9.bmp"
+
+IDB_BOSS_3_MOVE         BITMAP                  "Boss_3.bmp"
+
+IDB_BOSS_3_SKILL        BITMAP                  "Boss_3_Skill.bmp"
+
+IDB_BOSS_3_HIT          BITMAP                  "Boss_3_HIT.bmp"
+
+IDB_BOSS_3_DIE          BITMAP                  "Boss_3_Die.bmp"
+
+IDB_BOSS_3_SKILL_EFFECT BITMAP                  "Boss_3_Skill_Effect.bmp"
+
+IDB_PLAYER_SKILL_5_SUMMON BITMAP                  "Player_Skill_5_Summon.bmp"
+
+IDB_PLAYER_SKILL_5      BITMAP                  "Player_Skill_5.bmp"
+
+IDB_PLAYER_SKILL_5_ICON BITMAP                  "Player_Skill_5_ICON.bmp"
+
+IDB_BOSS_4              BITMAP                  "Boss_4.bmp"
+
+IDB_BOSS_4_HIT          BITMAP                  "Boss_4_hit.bmp"
+
+IDB_BOSS_4_SKILL        BITMAP                  "Boss_4_Skill.bmp"
+
+IDB_BOSS_4_DIE          BITMAP                  "Boss_4_Die.bmp"
+
+IDB_BOSS_4_SKILL_EFFECT BITMAP                  "Boss_4_Skill_Effect.bmp"
+
+IDB_PLAYER_SKILL_6      BITMAP                  "Player_Skill_6.bmp"
+
+IDB_PLAYER_SKILL_6_ICON BITMAP                  "Player_Skill_6_ICON.bmp"
+
+IDB_PLAYER_CHANGE_1     BITMAP                  "Player_Change_1.bmp"
+
+IDB_PLAYER_CHANGE_2     BITMAP                  "Player_Change_2.bmp"
+
+IDB_PLAYER_CHANGE_3     BITMAP                  "Player_Change_3.bmp"
+
+IDB_PLAYER_CHANGE_4     BITMAP                  "Player_Change_4.bmp"
+
+IDB_PLAYER_CHANGE_5     BITMAP                  "Player_Change_5.bmp"
+
+IDB_PLAYER_CHANGE_6     BITMAP                  "Player_Change_6.bmp"
+
+IDB_PLAYER_CHANGE_WALKING BITMAP                  "Player_Change_Walk.bmp"
+
+IDB_PLAYER_HP           BITMAP                  "Player_HP.bmp"
+
+IDB_PLAYER_HP_UI        BITMAP                  "Player_HP_UI.bmp"
+
+IDB_BOSS_5_SUMMON       BITMAP                  "Boss_5_Summon.bmp"
+
+IDB_BOSS_5              BITMAP                  "Boss_5.bmp"
+
+IDB_BOSS_5_HIT          BITMAP                  "Boss_5_HIT.bmp"
+
+IDB_BOSS_5_DIE          BITMAP                  "Boss_5_DIE.bmp"
+
+IDB_BOSS_5_SKILL        BITMAP                  "Boss_5_Skill.bmp"
+
+IDB_BOSS_5_SKILL_EFEECT BITMAP                  "Boss_5_Skill_Effect.bmp"
+
+IDB_CLEAR               BITMAP                  "Clear.bmp"
+
+#endif    // 한국어(대한민국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

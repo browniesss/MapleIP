@@ -1,0 +1,31 @@
+﻿  소스.cpp
+D:\2학년 1학기\API\심화학기\3. 점핑액션게임\점핑액션게임\JumpingAction\소스.cpp(324,67): error C2664: 'SQLRETURN SQLBindCol(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': 인수 6을(를) 'SQLINTEGER *'에서 'SQLLEN *'(으)로 변환할 수 없습니다.
+D:\2학년 1학기\API\심화학기\3. 점핑액션게임\점핑액션게임\JumpingAction\소스.cpp(324,59): message : 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\sql.h(618,20): message : 'SQLBindCol' 선언을 참조하십시오.
+D:\2학년 1학기\API\심화학기\3. 점핑액션게임\점핑액션게임\JumpingAction\소스.cpp(325,61): error C2664: 'SQLRETURN SQLBindCol(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': 인수 6을(를) 'SQLINTEGER *'에서 'SQLLEN *'(으)로 변환할 수 없습니다.
+D:\2학년 1학기\API\심화학기\3. 점핑액션게임\점핑액션게임\JumpingAction\소스.cpp(325,55): message : 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\sql.h(618,20): message : 'SQLBindCol' 선언을 참조하십시오.
+D:\2학년 1학기\API\심화학기\3. 점핑액션게임\점핑액션게임\JumpingAction\소스.cpp(326,79): error C2664: 'SQLRETURN SQLBindCol(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': 인수 6을(를) 'SQLINTEGER *'에서 'SQLLEN *'(으)로 변환할 수 없습니다.
+D:\2학년 1학기\API\심화학기\3. 점핑액션게임\점핑액션게임\JumpingAction\소스.cpp(326,67): message : 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\sql.h(618,20): message : 'SQLBindCol' 선언을 참조하십시오.
+D:\2학년 1학기\API\심화학기\3. 점핑액션게임\점핑액션게임\JumpingAction\소스.cpp(327,70): error C2664: 'SQLRETURN SQLBindCol(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': 인수 6을(를) 'SQLINTEGER *'에서 'SQLLEN *'(으)로 변환할 수 없습니다.
+D:\2학년 1학기\API\심화학기\3. 점핑액션게임\점핑액션게임\JumpingAction\소스.cpp(327,61): message : 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\sql.h(618,20): message : 'SQLBindCol' 선언을 참조하십시오.
+D:\2학년 1학기\API\심화학기\3. 점핑액션게임\점핑액션게임\JumpingAction\소스.cpp(328,58): error C2664: 'SQLRETURN SQLBindCol(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': 인수 6을(를) 'SQLINTEGER *'에서 'SQLLEN *'(으)로 변환할 수 없습니다.
+D:\2학년 1학기\API\심화학기\3. 점핑액션게임\점핑액션게임\JumpingAction\소스.cpp(328,49): message : 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\sql.h(618,20): message : 'SQLBindCol' 선언을 참조하십시오.
+D:\2학년 1학기\API\심화학기\3. 점핑액션게임\점핑액션게임\JumpingAction\소스.cpp(929,4): error C2664: 'INT_PTR DialogBoxParamA(HINSTANCE,LPCSTR,HWND,DLGPROC,LPARAM)': 인수 4을(를) 'BOOL (__cdecl *)(HWND,UINT,WPARAM,LPARAM)'에서 'DLGPROC'(으)로 변환할 수 없습니다.
+D:\2학년 1학기\API\심화학기\3. 점핑액션게임\점핑액션게임\JumpingAction\소스.cpp(929,4): message : 대상 형식과 일치하는 범위에 이름이 같은 함수가 없습니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(5056,1): message : 'DialogBoxParamA' 선언을 참조하십시오.
+D:\2학년 1학기\API\심화학기\3. 점핑액션게임\점핑액션게임\JumpingAction\소스.cpp(932,4): error C2664: 'INT_PTR DialogBoxParamA(HINSTANCE,LPCSTR,HWND,DLGPROC,LPARAM)': 인수 4을(를) 'BOOL (__cdecl *)(HWND,UINT,WPARAM,LPARAM)'에서 'DLGPROC'(으)로 변환할 수 없습니다.
+D:\2학년 1학기\API\심화학기\3. 점핑액션게임\점핑액션게임\JumpingAction\소스.cpp(932,4): message : 대상 형식과 일치하는 범위에 이름이 같은 함수가 없습니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(5056,1): message : 'DialogBoxParamA' 선언을 참조하십시오.
+D:\2학년 1학기\API\심화학기\3. 점핑액션게임\점핑액션게임\JumpingAction\소스.cpp(1240,19): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\2학년 1학기\API\심화학기\3. 점핑액션게임\점핑액션게임\JumpingAction\소스.cpp(1302,38): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\2학년 1학기\API\심화학기\3. 점핑액션게임\점핑액션게임\JumpingAction\소스.cpp(1303,102): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\2학년 1학기\API\심화학기\3. 점핑액션게임\점핑액션게임\JumpingAction\소스.cpp(1303,39): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\2학년 1학기\API\심화학기\3. 점핑액션게임\점핑액션게임\JumpingAction\소스.cpp(1365,84): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\2학년 1학기\API\심화학기\3. 점핑액션게임\점핑액션게임\JumpingAction\소스.cpp(1473,84): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\2학년 1학기\API\심화학기\3. 점핑액션게임\점핑액션게임\JumpingAction\소스.cpp(1581,84): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\2학년 1학기\API\심화학기\3. 점핑액션게임\점핑액션게임\JumpingAction\소스.cpp(1681,84): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\2학년 1학기\API\심화학기\3. 점핑액션게임\점핑액션게임\JumpingAction\소스.cpp(1743,84): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
